@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './loginsignup.css'
+
+//React Function based componnents
 const LoginSignUp = () => {
 
     //It's a react hook 
