@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  background: #313c47;
+  position: relative;
+  width: 100%;
+  height: 580px;
+}
+
+.contact-box {
+  display: flex;
+  margin: 150px 300px;
+  position: absolute;
+  gap: 80px;
+}
+
+.contactImg {
+  width: 500px;
+  height: 300px;
+  border-radius: 80px;
+}
+
+input {
+  border: 2px solid black;
+  display: grid;
+  color: black;
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  background: whitesmoke;
+  padding-left: 10px;
+}
+
+.summit {
+  width: 100px;
+  margin-left: 40px;
+  font-weight: bold;
+  padding-right: 10px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+textarea {
+  border-radius: 8px;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.right1 {
+  background: black;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: -50px;
+}
+
+h2 {
+  color: white;
+}

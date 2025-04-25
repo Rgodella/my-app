@@ -1,0 +1,60 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 0px 5%;
+}
+
+.Logo {
+  width: 60px;
+  cursor: pointer;
+}
+
+ul {
+  flex: 1;
+  text-align: center;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px 16px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.toggle {
+  width: 2px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.toggle img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.search-box {
+  display: flex;
+  border-radius: 30px;
+  padding: 1px 14px;
+  align-items: center;
+  background: #242424;
+}
+
+.search-box input {
+  background: transparent;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+  outline: 0;
+  border: 0;
+}
+
+.search-box img {
+  width: 30px;
+}
